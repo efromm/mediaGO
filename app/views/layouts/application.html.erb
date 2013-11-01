@@ -2,28 +2,24 @@
 <html>
   <head>
 
- <title>Bootstrap 101 Template</title>
+ <title>Media Go</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css/master.css.scss" rel="stylesheet" media="screen">
-    <!-- Bootstrap -->
+  <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+<%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
 
-<style>
-head { 
-  background: url(images/fondo.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
 
-}
-</style>
+
+
+
   </head>
   <body>
 
 
 
-    <h1>Hello, world!</h1>
+
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://code.jquery.com/jquery.js"></script>
