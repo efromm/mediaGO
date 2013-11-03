@@ -8,6 +8,7 @@ gem 'sqlite3'
 end
 group :production do
 gem 'pg'
+'rails_12factor'
 end
 
 
@@ -36,6 +37,7 @@ gem 'jbuilder', '~> 1.2'
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
+
 end
 
 # Use ActiveModel has_secure_password
