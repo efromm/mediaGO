@@ -8,7 +8,7 @@ gem 'sqlite3'
 end
 group :production do
 gem 'pg'
-'rails_12factor'
+gem 'rails_12factor'
 end
 
 
